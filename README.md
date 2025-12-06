@@ -137,3 +137,31 @@ Base URL: `http://localhost:4000`
 6. **Code walkthrough**: Briefly show the models (`Rfp`, `Vendor`, `Proposal`), the AI service (`aiService.js`), email service, and the main React pages.
 
 
+Try this prompts
+
+
+```
+{
+  "samples": [
+    {
+      ""We need to procure 25 high-resolution projectors for our training rooms. Budget is $35,000. Delivery required within 20 days. Each projector must support 1080p output, HDMI input, and minimum 3,500 lumens brightness. Vendor should provide installation and a 2-year warranty."
+    },
+    {
+      Looking for a managed HR payroll software for 300 employees. Budget is $2,500 per month. System must support attendance tracking, tax computation, salary slips, and integrations with our existing ERP. Vendor must offer migration support and a response SLA under 4 hours."
+    },
+    {
+      "We require a bulk purchase of 600 office stationery kits (pens, notebooks, markers, folders). Budget is $12 per kit. Delivery within 15 days. All items must be company branded, and the vendor should provide sample packs before final production."
+    },
+    {
+      "Seeking a vendor to upgrade our office CCTV infrastructure. Need 40 IP cameras, NVR setup with 30-day recording retention, and remote monitoring capability. Budget is $28,000. Installation needed within 30 days. Vendor must provide yearly maintenance and health monitoring alerts."
+    },
+    {
+      "We need to outsource transportation services for daily employee shuttle operations across 3 fixed routes. Budget is $18,000 per month. Requires GPS-enabled vehicles, verified drivers, safety compliance, and monthly performance reporting. Contract duration: 12 months."
+    }
+  ]
+}
+
+
+```
+
+
