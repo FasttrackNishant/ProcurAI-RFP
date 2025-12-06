@@ -2,6 +2,8 @@
 
 Single-user web app to create RFPs from natural language, manage vendors, send RFPs via email, ingest vendor responses, and compare proposals with AI assistance.
 
+URL of Application : https://procur-frontend.vercel.app/
+
 ### 1. Project Setup
 
 **Prerequisites**
