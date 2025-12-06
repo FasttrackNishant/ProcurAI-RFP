@@ -134,13 +134,7 @@ export default function VendorsPage() {
               className="flex items-center justify-between p-4 cursor-pointer hover:bg-slate-800/70 transition"
             >
               <div className="flex items-center gap-4">
-                <input
-                  type="checkbox"
-                  checked={selectedVendorIds.includes(vendor.id)}
-                  onChange={() => toggleVendor(vendor.id)}
-                  className="h-5 w-5 rounded border-slate-600 bg-slate-800 text-indigo-500 
-                  focus:ring-indigo-500/50"
-                />
+                
                 <div>
                   <p className="text-slate-200 font-semibold">{vendor.name}</p>
                   <p className="text-sm text-slate-400">{vendor.email}</p>
